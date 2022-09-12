@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@sectionintoc {2}{Background}{2}{0}{2}
 \beamer@sectionintoc {3}{Overview cont.}{3}{0}{3}
-\beamer@sectionintoc {4}{Sections--a useful organizational tool.}{7}{0}{4}
+\beamer@sectionintoc {4}{Sections--a useful organizational tool.}{6}{0}{4}

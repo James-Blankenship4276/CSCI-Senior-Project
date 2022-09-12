@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  11 SEP 2022 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  11 SEP 2022 20:56
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1059,23 +1059,24 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [4
 
 ]
+<figures/unknown.png, id=157, 1531.7225pt x 905.3825pt>
+File: figures/unknown.png Graphic file (type png)
+<use figures/unknown.png>
+Package pdftex.def Info: figures/unknown.png  used on input line 112.
+(pdftex.def)             Requested size: 284.52756pt x 168.17007pt.
+
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[5]
+[5
+
+ <./figures/unknown.png>]
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [6
-
-]
-Overfull \hbox (23.94675pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[7
 
 ]
 \openout4 = `Presentation.vrb'.
@@ -1091,12 +1092,19 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[8
+[7
 
 ]
 \openout4 = `Presentation.vrb'.
 
  (Presentation.vrb)
+Overfull \hbox (23.94675pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[8
+
+]
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1111,24 +1119,17 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [10
 
 ]
-Overfull \hbox (23.94675pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[11
-
-]
-<figures/6AnLddq.png, id=347, 200.75pt x 200.75pt>
+<figures/6AnLddq.png, id=322, 200.75pt x 200.75pt>
 File: figures/6AnLddq.png Graphic file (type png)
 <use figures/6AnLddq.png>
-Package pdftex.def Info: figures/6AnLddq.png  used on input line 187.
+Package pdftex.def Info: figures/6AnLddq.png  used on input line 189.
 (pdftex.def)             Requested size: 113.81102pt x 113.81297pt.
 
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[12
+[11
 
  <./figures/6AnLddq.png>]
 \tf@nav=\write6
@@ -1145,24 +1146,21 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: E3335529D240476A9850CFA7CF26A01B;557.
  ) 
 Here is how much of TeX's memory you used:
- 21045 strings out of 478927
- 398423 string characters out of 2852534
+ 21047 strings out of 478927
+ 398532 string characters out of 2852534
  682211 words of memory out of 3000000
- 38419 multiletter control sequences out of 15000+600000
+ 38423 multiletter control sequences out of 15000+600000
  405410 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,124p,419b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Navigation13} has been referenced but does not ex
-ist, replaced by a fixed one
-
-<C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-ss10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmss12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmss8.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Presentation.pdf (12 pages, 134861 bytes).
+<C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmss10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmss12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Presentation.pdf (11 pages, 2773374 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
