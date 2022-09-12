@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  11 SEP 2022 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  11 SEP 2022 20:51
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1094,6 +1094,9 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [8
 
 ]
+\openout4 = `Presentation.vrb'.
+
+ (Presentation.vrb)
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1101,9 +1104,6 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [9
 
 ]
-\openout4 = `Presentation.vrb'.
-
- (Presentation.vrb)
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1118,24 +1118,17 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [11
 
 ]
-Overfull \hbox (23.94675pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[12
-
-]
-<figures/6AnLddq.png, id=373, 200.75pt x 200.75pt>
+<figures/6AnLddq.png, id=347, 200.75pt x 200.75pt>
 File: figures/6AnLddq.png Graphic file (type png)
 <use figures/6AnLddq.png>
-Package pdftex.def Info: figures/6AnLddq.png  used on input line 190.
+Package pdftex.def Info: figures/6AnLddq.png  used on input line 187.
 (pdftex.def)             Requested size: 113.81102pt x 113.81297pt.
 
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[13
+[12
 
  <./figures/6AnLddq.png>]
 \tf@nav=\write6
@@ -1152,21 +1145,24 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: E3335529D240476A9850CFA7CF26A01B;557.
  ) 
 Here is how much of TeX's memory you used:
- 21046 strings out of 478927
- 398430 string characters out of 2852534
+ 21045 strings out of 478927
+ 398423 string characters out of 2852534
  682211 words of memory out of 3000000
  38419 multiletter control sequences out of 15000+600000
  405410 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,124p,419b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmss10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmss12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmss8.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Presentation.pdf (13 pages, 140736 bytes).
+pdfTeX warning (dest): name{Navigation13} has been referenced but does not ex
+ist, replaced by a fixed one
+
+<C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ss10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmss12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmss8.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Presentation.pdf (12 pages, 134861 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
  122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
