@@ -1805,3 +1805,121 @@ Scale3D: 1.000000 1.000000 1.000000
 [2022.09.29-02.16.55:745][  3]AssetCheck: New page: Asset Save: basement
 [2022.09.29-02.16.55:745][  3]LogContentValidation: Display: Validating World /Game/levels/basement.basement
 [2022.09.29-02.17.03:621][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.09.29-02.19.21:498][592]LogViewport: Scene viewport resized to 742x840, mode Windowed.
+[2022.09.29-02.19.26:808][672]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.29-02.19.26:841][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.29-02.19.26:842][672]PIE: New page: PIE session: basement (Sep 28, 2022, 4:19:26 PM)
+[2022.09.29-02.19.26:842][672]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_basement
+[2022.09.29-02.19.26:878][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035873s)
+[2022.09.29-02.19.26:878][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/basement.basement to /Game/levels/UEDPIE_0_basement.basement (0.036282s)
+[2022.09.29-02.19.26:879][672]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.29-02.19.26:879][672]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.29-02.19.26:881][672]LogAIModule: Creating AISystem for world basement
+[2022.09.29-02.19.26:883][672]LogPlayLevel: PIE: World Init took: (0.004230s)
+[2022.09.29-02.19.26:933][672]LogUObjectHash: Compacting FUObjectHashTables data took   7.37ms
+[2022.09.29-02.19.26:937][672]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.09.29-02.19.26:937][672]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.29-02.19.26:937][672]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.29-02.19.26:937][672]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.29-02.19.26:937][672]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.29-02.19.26:938][672]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.29-02.19.26:938][672]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.29-02.19.26:938][672]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.29-02.19.26:938][672]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.29-02.19.26:941][672]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.29-02.19.26:941][672]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.29-02.19.26:942][672]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.29-02.19.26:955][672]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.29-02.19.27:107][672]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.29-02.19.27:108][672]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.29-02.19.27:108][672]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.29-02.19.27:108][672]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.29-02.19.27:111][672]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2022.09.29-02.19.27:111][672]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2022.09.29-02.19.27:116][672]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2022.09.29-02.19.27:116][672]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2022.09.29-02.19.27:116][672]LogInit: FAudioDevice initialized.
+[2022.09.29-02.19.27:116][672]LogAudio: Display: Audio Device (ID: 20) registered with world 'basement'.
+[2022.09.29-02.19.27:157][672]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.29-02.19.27:168][672]LogWorld: Bringing World /Game/levels/UEDPIE_0_basement.basement up for play (max tick rate 60) at 2022.09.28-21.19.27
+[2022.09.29-02.19.27:170][672]LogWorld: Bringing up level for play took: 0.013209
+[2022.09.29-02.19.27:180][672]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2022.09.29-02.19.27:190][672]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2631.852 Y=-2692.421 Z=107.641] for [BP_FirstPersonCharacter_C]
+[2022.09.29-02.19.27:191][672]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_FirstPersonCharacter_C at Rotation: Pitch 0.000000 Yaw -135.483293 Roll 0.000000
+Translation: -2631.851985 -2692.421094 107.641119
+Scale3D: 1.000000 1.000000 1.000000
+
+[2022.09.29-02.19.27:193][672]PIE: Server logged in
+[2022.09.29-02.19.27:198][672]PIE: Play in editor total start time 0.358 seconds.
+[2022.09.29-02.19.28:895][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-02.19.28:895][706]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_basement
+[2022.09.29-02.19.28:896][706]LogWorld: UWorld::CleanupWorld for basement, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-02.19.28:897][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-02.19.28:931][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.29-02.19.28:937][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-02.19.28:970][706]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.29-02.19.28:971][706]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.09.29-02.19.28:976][706]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.09.29-02.19.29:002][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-02.19.29:009][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.09.29-02.19.29:122][707]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.09.29-02.19.32:878][770]LogViewport: Scene viewport resized to 943x840, mode Windowed.
+[2022.09.29-02.19.40:919][886]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.29-02.19.40:945][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.29-02.19.40:945][886]PIE: New page: PIE session: basement (Sep 28, 2022, 4:19:40 PM)
+[2022.09.29-02.19.40:945][886]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_basement
+[2022.09.29-02.19.40:958][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012504s)
+[2022.09.29-02.19.40:958][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/basement.basement to /Game/levels/UEDPIE_0_basement.basement (0.012714s)
+[2022.09.29-02.19.40:958][886]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.29-02.19.40:958][886]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.29-02.19.40:959][886]LogAIModule: Creating AISystem for world basement
+[2022.09.29-02.19.40:960][886]LogPlayLevel: PIE: World Init took: (0.002137s)
+[2022.09.29-02.19.40:982][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.09.29-02.19.40:985][886]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.09.29-02.19.40:985][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.29-02.19.40:986][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.29-02.19.40:986][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.29-02.19.40:987][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.29-02.19.40:987][886]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.29-02.19.40:988][886]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.29-02.19.40:988][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.29-02.19.40:988][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.29-02.19.40:991][886]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.29-02.19.40:991][886]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.29-02.19.40:991][886]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.29-02.19.40:999][886]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.29-02.19.41:110][886]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.29-02.19.41:113][886]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.29-02.19.41:113][886]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.29-02.19.41:113][886]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.29-02.19.41:114][886]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2022.09.29-02.19.41:114][886]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2022.09.29-02.19.41:119][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2022.09.29-02.19.41:119][886]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2022.09.29-02.19.41:119][886]LogInit: FAudioDevice initialized.
+[2022.09.29-02.19.41:119][886]LogAudio: Display: Audio Device (ID: 21) registered with world 'basement'.
+[2022.09.29-02.19.41:154][886]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.29-02.19.41:170][886]LogWorld: Bringing World /Game/levels/UEDPIE_0_basement.basement up for play (max tick rate 0) at 2022.09.28-21.19.41
+[2022.09.29-02.19.41:172][886]LogWorld: Bringing up level for play took: 0.016926
+[2022.09.29-02.19.41:182][886]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2022.09.29-02.19.41:190][886]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-933.550 Y=-507.035 Z=129.785] for [BP_FirstPersonCharacter_C]
+[2022.09.29-02.19.41:191][886]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_FirstPersonCharacter_C at Rotation: Pitch 0.000000 Yaw -109.483293 Roll 0.000000
+Translation: -933.550184 -507.034689 129.784772
+Scale3D: 1.000000 1.000000 1.000000
+
+[2022.09.29-02.19.41:192][886]PIE: Server logged in
+[2022.09.29-02.19.41:194][886]PIE: Play in editor total start time 0.25 seconds.
+[2022.09.29-02.19.42:974][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-02.19.42:974][915]LogWorld: BeginTearingDown for /Game/levels/UEDPIE_0_basement
+[2022.09.29-02.19.42:974][915]LogWorld: UWorld::CleanupWorld for basement, bSessionEnded=true, bCleanupResources=true
+[2022.09.29-02.19.42:975][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-02.19.43:024][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.29-02.19.43:028][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.29-02.19.43:051][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.29-02.19.43:052][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.09.29-02.19.43:056][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.09.29-02.19.43:075][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.09.29-02.19.43:105][916]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.09.29-02.20.03:683][153]LogViewport: Scene viewport resized to 1591x728, mode Windowed.
+[2022.09.29-02.20.07:921][189]LogViewport: Scene viewport resized to 1910x848, mode Windowed.
+[2022.09.29-02.20.30:059][582]LogViewport: Scene viewport resized to 1591x728, mode Windowed.
