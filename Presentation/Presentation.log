@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  28 SEP 2022 22:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  28 SEP 2022 23:05
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1000,16 +1000,33 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [3
 
 ]
+<figures/woods.jpg, id=131, 908.193pt x 505.89pt>
+File: figures/woods.jpg Graphic file (type jpg)
+<use figures/woods.jpg>
+Package pdftex.def Info: figures/woods.jpg  used on input line 116.
+(pdftex.def)             Requested size: 113.801pt x 113.80489pt.
+<figures/castle.jpg, id=132, 909.99976pt x 501.072pt>
+File: figures/castle.jpg Graphic file (type jpg)
+<use figures/castle.jpg>
+Package pdftex.def Info: figures/castle.jpg  used on input line 116.
+(pdftex.def)             Requested size: 113.80522pt x 113.80673pt.
+<figures/basement.jpg, id=133, 909.99976pt x 504.6855pt>
+File: figures/basement.jpg Graphic file (type jpg)
+<use figures/basement.jpg>
+Package pdftex.def Info: figures/basement.jpg  used on input line 116.
+(pdftex.def)             Requested size: 85.35391pt x 113.81116pt.
+
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [4
 
-]
+ <./figures/woods.jpg> <./figures/castle.jpg> <./figures/basement.jpg>]
 \openout4 = `Presentation.vrb'.
 
- (Presentation.vrb)
+
+(Presentation.vrb)
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1017,10 +1034,10 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [5
 
 ]
-<figures/unknown.png, id=184, 1531.7225pt x 905.3825pt>
+<figures/unknown.png, id=187, 1531.7225pt x 905.3825pt>
 File: figures/unknown.png Graphic file (type png)
 <use figures/unknown.png>
-Package pdftex.def Info: figures/unknown.png  used on input line 133.
+Package pdftex.def Info: figures/unknown.png  used on input line 136.
 (pdftex.def)             Requested size: 284.52756pt x 168.17007pt.
 
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
@@ -1058,10 +1075,10 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: E3335529D240476A9850CFA7CF26A01B;557.
  ) 
 Here is how much of TeX's memory you used:
- 21023 strings out of 478927
- 398143 string characters out of 2852534
+ 21045 strings out of 478927
+ 398601 string characters out of 2852534
  683209 words of memory out of 3000000
- 38409 multiletter control sequences out of 15000+600000
+ 38427 multiletter control sequences out of 15000+600000
  405242 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,124p,419b,647s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1069,9 +1086,9 @@ Here is how much of TeX's memory you used:
 cmss10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss8.pfb>
-Output written on Presentation.pdf (8 pages, 2741290 bytes).
+Output written on Presentation.pdf (8 pages, 3515271 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
+ 290 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
