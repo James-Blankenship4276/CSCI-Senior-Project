@@ -58,6 +58,7 @@
 \usepackage{booktabs}
 \usepackage{textcomp}
 
+
 % Some optional stuff you might like/need.
 \usepackage{microtype}        % Improved Tracking and Kerning
 % \usepackage[all]{hypcap}    % Fixes bug in hyperref caption linking
@@ -137,25 +138,24 @@
 \author{%
   \alignauthor{James Blankenship\\
     \affaddr{for Submission}\\
-    \affaddr{Crockett Mills,Tennessee}\\
+    \affaddr{Crockett Mills, US}\\
     \email{jamcblan@ut.utm.edu}}\\
   \alignauthor{Andrew Marshall\\
     \affaddr{for Submission}\\
-    \affaddr{Martin,Tennessee}\\
+    \affaddr{Martin, US}\\
     \email{jesamars@ut.utm.edu}}\\
-}
+  }
 
 \maketitle
 
 \begin{abstract}
-   The project that our group is doing is a 3D real time game in the Unreal engine. 
+  UPDATED---\today. The project that our group is doing is a 3D real time game in the Unreal engine. 
   The game is a fantasy genre in a medieval setting . The game will have 3 levels in it.
   It will have a variety of enemies and weapons.There will be magic.Examples would be pyromancy and sorcery and faith based magic.  You can upgrade weapons and get access to abilities in the game.
   The upgrade system, and the ability system are meant to give the player the ability to make a build that fits with their   play style.
    With each level the enemies will gain hp and do more damage.
   Each level will have a boss enemy in it.
-  The boss will typically have a mechanic that makes him different compared to the other enemies in the level. 
-\end{abstract}
+  The boss will typically have a mechanic that makes him different compared to the other enemies in the level. \end{abstract}
 
 
 % Author Keywords
@@ -164,11 +164,18 @@
 
 
 \section{Introduction}
-
 To introduce this project we decided to develop a game. The game will have the title of  "The Deep Journey". This gameplay has a viewpoint of first-person. The general setting is that of medieval fantasy. The game will be made up of three different levels. The first level will be where the character will start out in and it will be the castle level that includes a courtyard and the interior of the castle itself. The second level will be the castles dungeon which will include harder enemies which will drop different weapons or loot. The third level will be the woods area adjacent to the castle. The character player will have different type of weapons to choose from which will include swords or staffs . The weapons the character player can use will have different upgrades available that can increase damage. The character player will be facing off against different ai enemies types including orcs, goblins, and humans.  The character will also be able to wield different kinds of magic. There will be three different types of magic the character can wield pyromancy,faith magic, and sorcery.  
+
 
 \section{Technical specifications}
 We are using Unreal Engine for our project. We will be using C++ and blueprints in Unreal and behavior trees for the ai. Behavior trees are essentially used to create ai by having branches that decide actions.1 Blueprints will be used in places that require simple execution such as taking the player to a new level. C++ will be used for more complex tasks. An example would be the ai just searching and then it will execute a different branch when it finds someone. GitHub is being used for collaboration with each other. All the assets that ae currently being used is in the unreal store. 
+\section{Page Size and Columns}
+On each page your material should fit within a rectangle of 7 $\times$
+9.15 inches (18 $\times$ 23.2 cm), centered on a US Letter page (8.5
+$\times$ 11 inches), beginning 0.85 inches (1.9 cm) from the top of
+the page, with a 0.3 inches (0.85 cm) space between two 3.35 inches
+(8.4 cm) columns. Right margins should be justified, not
+ragged. Please be sure your document and PDF are US letter and not A4.
 
 \section{Typeset Text}
 The styles contained in this document have been modified from the
@@ -246,7 +253,7 @@ of equal length.
 Use a numbered list of references at the end of the article, ordered
 alphabetically by last name of first author, and referenced by numbers
 in
-brackets~\cite{acm_categories,ethics,Klemmer:2002:WSC:503376.503378}.
+brackets.
 Your references should be published materials accessible to the
 public. Internal technical reports may be cited only if they are
 easily accessible (i.e., you provide the address for obtaining the
@@ -258,7 +265,7 @@ communications should be acknowledged in the main text, not referenced
 References should be in ACM citation format:
 \url{http://acm.org/publications/submissions/latex_style}. This
 includes citations to internet
-resources~\cite{acm_categories,cavender:writing,CHINOSAUR:venue,psy:gangnam}
+resources
 according to ACM format, although it is often appropriate to include
 URLs directly in the text, as above.
 
@@ -408,7 +415,7 @@ pay attention to the following:
   s/he, chair, staff, staff-hours, person-years). See the
   \textit{Guidelines for Bias-Free Writing} for further advice and
   examples regarding gender and other personal
-  attributes~\cite{Schwartz:1995:GBF}. Be particularly aware of
+  attributes~. Be particularly aware of
   considerations around writing about people with disabilities.
 \item If possible, use the full (extended) alphabetic character set
   for names of persons, institutions, and places (e.g.,
@@ -515,36 +522,20 @@ conference proceedings, include the title of the paper and the name of
 the conference. Do not include the location of the conference or the
 exact date; do include the page numbers if available. 
 
-References should be in ACM citation format:
-\url{http://www.acm.org/publications/submissions/latex_style}.  This
-includes citations to Internet
-resources~\cite{CHINOSAUR:venue,cavender:writing,psy:gangnam}
-according to ACM format, although it is often appropriate to include
-URLs directly in the text, as above. Example reference formatting for
-individual journal articles~\cite{ethics}, articles in conference
-proceedings~\cite{Klemmer:2002:WSC:503376.503378},
-books~\cite{Schwartz:1995:GBF}, theses~\cite{sutherland:sketchpad},
-book chapters~\cite{winner:politics}, an entire journal
-issue~\cite{kaye:puc},
-websites~\cite{acm_categories,cavender:writing},
-tweets~\cite{CHINOSAUR:venue}, patents~\cite{heilig:sensorama}, 
-games~\cite{supermetroid:snes}, and
-online videos~\cite{psy:gangnam} is given here.  See the examples of
-citations at the end of this document and in the accompanying
-\texttt{BibTeX} document. This formatting is a edited version of the
-format automatically generated by the ACM Digital Library
-(\url{http://dl.acm.org}) as ``ACM Ref.'' DOI and/or URL links are
-optional but encouraged as are full first names. Note that the
-Hyperlink style used throughout this document uses blue links;
-however, URLs in the references section may optionally appear in
-black.
+Citing something\cite{unrealweb}. \cite{wizard} \cite{infinityw} \cite{infinitya}
+
 
 % BALANCE COLUMNS
 \balance{}
 
 % REFERENCES FORMAT
 % References must be the same font size as other body text.
-\bibliographystyle{SIGCHI-Reference-Format}
-\bibliography{sample}
+%%\bibliographystyle{SIGCHI-Reference-Format}
+%% \bibliographystyle{acm-sigchi-proceedings}
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
 
 \end{document}
+
+
