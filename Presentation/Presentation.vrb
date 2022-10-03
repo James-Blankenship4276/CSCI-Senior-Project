@@ -1,0 +1,11 @@
+\frametitle{Technology used}
+
+\begin{enumerate}
+    \item The game was developed using unreal engine 5.
+    \bigskip
+  \item To help with collabaration and version control we used github.
+    \bigskip
+  \item This presentation was made using latex.
+    \bigskip
+
+  \end{enumerate}
