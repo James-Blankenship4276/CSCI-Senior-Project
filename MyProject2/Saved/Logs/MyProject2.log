@@ -4025,3 +4025,17 @@ Recommended: 516.25
 [2022.10.27-03.14.42:816][937]AssetCheck: New page: Asset Save: multiple assets
 [2022.10.27-03.14.42:816][937]LogContentValidation: Display: Validating World /Game/levels/woods.woods
 [2022.10.27-03.14.42:816][937]LogContentValidation: Display: Validating Blueprint /Game/AI/Boss2.Boss2
+[2022.10.27-03.19.44:082][303]Cmd: DELETE
+[2022.10.27-03.19.44:082][303]Cmd: ACTOR DELETE
+[2022.10.27-03.19.44:118][303]LogEditorActor: Deleted Actor: Enemy_C
+[2022.10.27-03.19.44:174][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.10.27-03.19.44:179][303]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2022.10.27-03.19.47:567][443]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.27-03.19.52:452][640]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.27-03.19.59:408][936]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.27-03.20.05:554][207]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.27-03.24.42:025][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.10.27-03.24.42:991][499]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/levels/woods_Auto1
+[2022.10.27-03.24.42:992][499]LogSavePackage: Moving 'C:/Users/blank/Documents/GitHub/CSCI-Senior-Project/MyProject2/Saved/woods_Auto161DD558444D74CFC5A45AE8A4384B8A5.tmp' to 'C:/Users/blank/Documents/GitHub/CSCI-Senior-Project/MyProject2/Saved/Autosaves/Game/levels/woods_Auto1.umap'
+[2022.10.27-03.24.43:004][499]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/levels/woods' took 1.034
+[2022.10.27-03.24.43:004][499]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.034
