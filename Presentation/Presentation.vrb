@@ -1,0 +1,11 @@
+\frametitle{Technology cont}
+\begin{enumerate}
+ \item For the AI and overall level we used unreals blueprint system.
+    \bigskip
+  \item To help with collaboration and version control we used github.
+  \bigskip
+
+  \item This presentation was made using latex. \\
+  \bigskip
+\includegraphics[width=6cm, height=4cm, center]{figures/image_21.png}
+\end{enumerate}
