@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.31)  2 NOV 2022 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.31)  2 NOV 2022 21:23
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -918,8 +918,7 @@ tex.def
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count329
 \l__pdf_internal_box=\box76
-)
-No file Presentation.aux.
+) (Presentation.aux)
 \openout1 = `Presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -938,6 +937,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1011,6 +1011,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 47.
 LaTeX Info: Redefining \pageref on input line 47.
 LaTeX Info: Redefining \nameref on input line 47.
+ (Presentation.out) (Presentation.out)
 \@outlinefile=\write5
 \openout5 = `Presentation.out'.
 
@@ -1090,8 +1091,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (C:\Users\blank\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-No file Presentation.nav.
+) (Presentation.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 51.
@@ -1104,12 +1104,12 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [1
 
 {C:/Users/blank/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-<figures/Enemy.png, id=57, 1927.2pt x 1084.05pt>
+<figures/Enemy.png, id=75, 1927.2pt x 1084.05pt>
 File: figures/Enemy.png Graphic file (type png)
 <use figures/Enemy.png>
 Package pdftex.def Info: figures/Enemy.png  used on input line 81.
 (pdftex.def)             Requested size: 113.80379pt x 113.80379pt.
-<figures/Boss.png, id=59, 1927.2pt x 1084.05pt>
+<figures/Boss.png, id=77, 1927.2pt x 1084.05pt>
 File: figures/Boss.png Graphic file (type png)
 <use figures/Boss.png>
 Package pdftex.def Info: figures/Boss.png  used on input line 81.
@@ -1122,7 +1122,7 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [2
 
  <./figures/Enemy.png> <./figures/Boss.png>]
-<figures/Hammer.png, id=91, 1927.2pt x 1084.05pt>
+<figures/Hammer.png, id=109, 1927.2pt x 1084.05pt>
 File: figures/Hammer.png Graphic file (type png)
 <use figures/Hammer.png>
 Package pdftex.def Info: figures/Hammer.png  used on input line 98.
@@ -1139,17 +1139,17 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [3
 
  <./figures/Hammer.png>]
-<figures/woods.jpg, id=121, 908.193pt x 505.89pt>
+<figures/woods.jpg, id=138, 908.193pt x 505.89pt>
 File: figures/woods.jpg Graphic file (type jpg)
 <use figures/woods.jpg>
 Package pdftex.def Info: figures/woods.jpg  used on input line 119.
 (pdftex.def)             Requested size: 113.801pt x 113.80489pt.
-<figures/castle.jpg, id=122, 909.99976pt x 501.072pt>
+<figures/castle.jpg, id=139, 909.99976pt x 501.072pt>
 File: figures/castle.jpg Graphic file (type jpg)
 <use figures/castle.jpg>
 Package pdftex.def Info: figures/castle.jpg  used on input line 119.
 (pdftex.def)             Requested size: 113.80522pt x 113.80673pt.
-<figures/basement.jpg, id=123, 909.99976pt x 504.6855pt>
+<figures/basement.jpg, id=140, 909.99976pt x 504.6855pt>
 File: figures/basement.jpg Graphic file (type jpg)
 <use figures/basement.jpg>
 Package pdftex.def Info: figures/basement.jpg  used on input line 119.
@@ -1222,7 +1222,7 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 \openout4 = `Presentation.vrb'.
 
  (Presentation.vrb
-<figures/marketplace.jpg, id=314, 781.7205pt x 434.8245pt>
+<figures/marketplace.jpg, id=331, 781.7205pt x 434.8245pt>
 File: figures/marketplace.jpg Graphic file (type jpg)
 <use figures/marketplace.jpg>
 Package pdftex.def Info: figures/marketplace.jpg  used on input line 12.
@@ -1238,7 +1238,7 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 \openout4 = `Presentation.vrb'.
 
  (Presentation.vrb
-<figures/image_21.png, id=342, 2056.68375pt x 1141.26375pt>
+<figures/image_21.png, id=359, 2056.68375pt x 1141.26375pt>
 File: figures/image_21.png Graphic file (type png)
 <use figures/image_21.png>
 Package pdftex.def Info: figures/image_21.png  used on input line 10.
@@ -1251,10 +1251,10 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [12
 
  <./figures/image_21.png>]
-<figures/unknown.png, id=371, 1531.7225pt x 905.3825pt>
+<figures/unknown.png, id=387, 1531.7225pt x 905.3825pt>
 File: figures/unknown.png Graphic file (type png)
 <use figures/unknown.png>
-Package pdftex.def Info: figures/unknown.png  used on input line 229.
+Package pdftex.def Info: figures/unknown.png  used on input line 231.
 (pdftex.def)             Requested size: 284.52756pt x 168.17007pt.
 
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
@@ -1292,10 +1292,10 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [17
 
 ]
-<figures/qrcode_github.com.png, id=510, 451.6875pt x 451.6875pt>
+<figures/qrcode_github.com.png, id=523, 451.6875pt x 451.6875pt>
 File: figures/qrcode_github.com.png Graphic file (type png)
 <use figures/qrcode_github.com.png>
-Package pdftex.def Info: figures/qrcode_github.com.png  used on input line 315.
+Package pdftex.def Info: figures/qrcode_github.com.png  used on input line 317.
 
 (pdftex.def)             Requested size: 142.26163pt x 113.81068pt.
 
@@ -1316,20 +1316,14 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 \openout8 = `Presentation.snm'.
 
  (Presentation.aux)
-
-Package rerunfilecheck Warning: File `Presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Presentation.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  8DE4DC9FB621D434817D7B4D1AB23912;217.
+Package rerunfilecheck Info: File `Presentation.out' has not changed.
+(rerunfilecheck)             Checksum: 8DE4DC9FB621D434817D7B4D1AB23912;217.
  ) 
 Here is how much of TeX's memory you used:
- 19266 strings out of 479618
- 375510 string characters out of 2865026
- 660497 words of memory out of 3000000
- 35916 multiletter control sequences out of 15000+200000
+ 19332 strings out of 479618
+ 376363 string characters out of 2865026
+ 660680 words of memory out of 3000000
+ 35974 multiletter control sequences out of 15000+200000
  405242 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,419b,645s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1337,9 +1331,9 @@ Here is how much of TeX's memory you used:
 cmss10.pfb><C:/Users/blank/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss12.pfb><C:/Users/blank/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss8.pfb>
-Output written on Presentation.pdf (18 pages, 11813684 bytes).
+Output written on Presentation.pdf (18 pages, 11814926 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
+ 574 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
