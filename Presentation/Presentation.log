@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  7 NOV 2022 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  8 NOV 2022 09:26
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1232,17 +1232,30 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
 [16
 
  <./figures/dev2.jpg>]
+<figures/messy.jpg, id=500, 837.72975pt x 429.40425pt>
+File: figures/messy.jpg Graphic file (type jpg)
+<use figures/messy.jpg>
+Package pdftex.def Info: figures/messy.jpg  used on input line 312.
+(pdftex.def)             Requested size: 170.71309pt x 113.81123pt.
+
 Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [17
 
+ <./figures/messy.jpg>]
+Overfull \hbox (23.94675pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[18
+
 ]
-<figures/qrcode_github.com.png, id=526, 451.6875pt x 451.6875pt>
+<figures/qrcode_github.com.png, id=554, 451.6875pt x 451.6875pt>
 File: figures/qrcode_github.com.png Graphic file (type png)
 <use figures/qrcode_github.com.png>
-Package pdftex.def Info: figures/qrcode_github.com.png  used on input line 319.
+Package pdftex.def Info: figures/qrcode_github.com.png  used on input line 337.
 
 (pdftex.def)             Requested size: 142.26163pt x 113.81068pt.
 
@@ -1250,7 +1263,7 @@ Overfull \hbox (23.94675pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[18
+[19
 
  <./figures/qrcode_github.com.png>]
 \tf@nav=\write6
@@ -1267,10 +1280,10 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: E3335529D240476A9850CFA7CF26A01B;557.
  ) 
 Here is how much of TeX's memory you used:
- 22190 strings out of 478927
- 418252 string characters out of 2852534
+ 22201 strings out of 478927
+ 418429 string characters out of 2852534
  702523 words of memory out of 3000000
- 39508 multiletter control sequences out of 15000+600000
+ 39516 multiletter control sequences out of 15000+600000
  405242 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,124p,419b,647s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1278,9 +1291,9 @@ Here is how much of TeX's memory you used:
 cmss10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmss12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmss8.pfb>
-Output written on Presentation.pdf (18 pages, 13458370 bytes).
+Output written on Presentation.pdf (19 pages, 13638595 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 610 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
