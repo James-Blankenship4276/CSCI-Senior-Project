@@ -167,30 +167,49 @@ To introduce this project we decided to develop a game, and  the game will have 
 \section{Technical specifications}
 We are using Unreal Engine for our project. We will be using C++ and blueprints in Unreal and behavior trees for the AI. Behavior trees are essentially used to create AI by having branches that decide actions.1 Blueprints will be used in places that require simple execution such as taking the player to a new level. An example would be the AI just searching and then it will execute a different branch when it finds someone. GitHub is being used for collaboration with each other and version control. All the assets that are currently being used is in the unreal store. 
 \section{Levels}
-There are three levels in this game.The first is the castle area and it was the first one made.It is two court yard and a main building each courtyard will have some smaller enemies for you to deal with.The Middle building will have two stories.The first one is just a way to get to the other court yard,basement level, and upstairs.The second level will hold the boss enemy for the level.The second level is the basement/dungeon. It is a smaller level with just two holding cells and a backroom for the boss and some enemies.The third level is a bigger level with a bunch of small building in a enclosed space.It has wolves and orcs next to the building with a tavern in the back with the boss. 
+There are three levels in this game.The first is the castle area and it was the first one made.It is two court yard and a main building each courtyard will have some smaller enemies for you to deal with.The Middle building will have two stories.The first one is just a way to get to the other court yard,basement level, and upstairs.The second level will hold the boss enemy for the level.The second level is the basement/dungeon. It is a smaller level with just two holding cells and a backroom for the boss and some enemies.The third level is a bigger level with a bunch of small building in a enclosed space.It has wolves and orcs next to the building with a tavern in the back with the boss. \\
+\includegraphics[width=6cm, height=6cm]{Figure/castle.png}\\ \\  
+\includegraphics[width=6cm, height=6cm]{Figure/basement.png}\\ \\  
+\includegraphics[width=6cm, height=6cm]{Figure/fort.png} \\ \\   
 
 \section{Classes}
-We made two classes for the game the mage and warrior.The warrior was the first class that was made and is the more simple of the two.Its first ability is just a heal ability which is useful for staying alive since you have to be in melee combat.The second ability is a damage buff which will give double damage to his attacks.The third ability is his ultimate which gives health regeneration to the player.The mage class is the range dps class.The first ability sends out fast moving disks in front of the player.The second ability shoots a fireball which does a lot for damage which is useful for the bosses in the game.The ult will regenerate  the players resources to cast more spells.
+We made two classes for the game the mage and warrior.The warrior was the first class that was made and is the more simple of the two.Its first ability is just a heal ability which is useful for staying alive since you have to be in melee combat.The second ability is a damage buff which will give double damage to his attacks.The third ability is his ultimate which gives health regeneration to the player.The mage class is the range dps class.The first ability sends out fast moving disks in front of the player.The second ability shoots a fireball which does a lot for damage which is useful for the bosses in the game.The ult will regenerate  the players resources to cast more spells. \\
+\includegraphics[width=6cm, height=6cm]{Figure/hammer.png}\\ \\   
+\includegraphics[width=6cm, height=6cm]{Figure/mage.png}\\ \\   
 \section{What we learned}
-
+This section will cover what we learned over the course of  making our project. Over the semester we learned about game development within unreal engine 5. Unreal engine is made by Epic Games and is free to use. We also learned how to go about making a game and all the steps that require it. Making the game involved a whole host of different things like having to plan out the different levels within the game, choosing an overall art direction for the game, deciding on what kind of enemies the player will go up against, and the different abilities the player character will have. Something else we learned how to do was create custom animations within the unreal engine. The enemies and their ai that is used to make them work was something else we learned. The player characters' different projectiles and weapons that can be used were implemented. An interface for the player character that shows the players health, magic, and ultimate ability was made. 
 
 \section{mechanics}
 
 
 \subsection{blueprints}
+The major blueprints that were made were dealing with the classes.The projectiles used were changed blueprints of the original projectile.Things that were changed about it were the damage numbers gravity and speed.The class systems for the warrior used changing of simple variable values to achieve the effect of healing similar effects were done for other values such as resources and ultimate bars.The damage buff ability was achieved by having a damage buff variable  and having it change from 1 to 2 and having it affect weapon damage.The only problem I had with that was the casting to player character which took finding more information about casting online.
+The mage abilities used similar blueprints since it was just spawning the projectile and the only thing that was different was the damage numbers and the cost in implementing.Overall the blueprints were very modular since you could reuse the code to do different abilities and projectiles.The ultimates were just having a timer run over different variable to regenerate that bar.\\
+\includegraphics[width=6cm, height=6cm]{Figure/blueprint.png}\\ \\ 
 
 
-\subsection{AI}  
+\subsection{AI}
+Ai was a little tricky since at first I just had simple blueprints to do basic tasks such as see and move towards the player.That later changed when I learned about behavior trees.All a behavior tree does is choose paths and execute commands.Example of commands used is turn to face player and walk towards player.The movement is basically  the ai finding a spot nearby and moving towards it until it sees the player.The AI will make the enemy move towards the player.This part of the project was difficult, and we had to use a tutorial made by unreal to get more information about behavior trees and get basic functionality. \\ 
+\includegraphics[width=6cm, height=6cm]{Figure/AI.png} \\ \\  
 
 \section{Trials and Tribulations}
+Over the course of creating and perfecting the project certain issues were encountered. Even though we used github for our version control and collaboration we still ran into using where work was lost. Another issue encountered was the differences in performance specifically gpu power between our personal machines complicated development.Some of the concepts were difficult such as the ai.There are also a lot of options on the blueprints and objects  so it was easy to get overwhelmed by it.Implementing the classes was tedious since choosing a class and a weapon can not be on the same keybind for some reason.The class ultimates were difficult since loops are awful in the blueprint system and would throw a no end condition error.We had to use timers which are much better to deal with. 
+
 
 \section{Future Work}
+There are some areas in our project that we weren't able to implement and could be considered future work. The first idea we had was porting the game to mobile. This is possible because unreal engines work cross platform. More levels being added was something else we would like to do in the future. Adding more enemies and weapons for the player character to use could also be worked on later down the road. 
+
 
 \section{Project Development}
+The project started with just a map that later became the empty castle.At first it was just messing with the toolkit to figure things out. I later added enemies that just stood there and then later they would move randomly.We started working on the second level which became the basement level since it seemed to transition well.The levels after the castle stay stagnant since we started to focus on the mechanics of the game.It first started with the ai which was a nightmare to work with so we switched over to working on the class system since it was easier.We added a warrior class with abilities such as healing, damage buff, and a regeneration ability.The ultimates required us learning about timers since they were required to make it work. The mage was the next class made which had different spells it could use.The spells required us to make more projectiles that have different stats.We then shifted focus back to the ai and got them to start moving round and attacking the player.Melee weapons were added close to the end of the project development.
+
 
 \section{Opinions on Project}
+The project was overall helpful for learning about a new toolkit and it forced me to look for help online when I ran into trouble.Example the ai was difficult since it required multiple blueprints and something called a black board.It also required making a ai controller for the enemies to use.We would have never figured that out unless we looked online for help.We also need to look up tutorials for the ai and the UI.Unreal does not really show you how to do things on its service.
+
 
 \section{Conclusion}
+To conclude over the semester with our project we were able to make a playable first person action game. This game was called the deep journey and was developed using unreal engine 5. We used the blueprint system within unreal engine 5 to deal with the different player classes and connect the levels using trigger boxes. The project development started out with just one level and by the end we had three distinct levels with different enemies the players could fit using their classes abilities. The project helped us learn game development and the new toolkits we needed to use. We have improvements and additions to the project that could be completed in the future. Overall this project was a fun way to demonstrate our resourcefulness/work ethic as computer science majors and showcases how we can use the knowledge we've procured over the years to accomplish great things. 
 
 
 
