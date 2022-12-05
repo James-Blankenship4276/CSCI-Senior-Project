@@ -149,50 +149,70 @@
 \maketitle
 
 \begin{abstract}
-  UPDATED---\today. Our project is a 3D real time game in the Unreal engine. 
+ Our project is a 3D real time game in the Unreal engine. 
   The game is a fantasy genre in a medieval setting. The game will have 3 levels in it.
   It will have a variety of enemies and weapons. There will be magic. The different types of magic for the player to use would include pyromancy and sorcery.There will be a class system that has two classes.The two classes are the Mage and the Warrior. Each level will have a boss enemy in it.
    \end{abstract}
-
-
-% Author Keywords
-\keywords{\plainkeywords}
 
 
 
 \section{Introduction}
 To introduce this project we decided to develop a game, and  the game will have the title of  "The Deep Journey." This game is in the first person. The general setting is that of medieval fantasy, and it will have 3 different levels  The first level will be where the character will start out in, and it will be the castle level. The castle  includes two  courtyards and middle building. The second level will be the castles dungeon which will have holding cells for enemies and middle room where the main boss is.The third level will be the fort  area which will be a walled structure with small buildings.The main building for the level will be a tavern which will hold the boss. The character player will have different type of weapons to choose from which will include hammer or staffs . The character player will be facing off against different enemies types including orcs, and wolves.  The character will also be able to wield different kinds of magic. There will be two different types of magic the character can wield pyromancy and sorcery.  
 
-
+\section{Motivations}
+Motivations for making a game is they James and Andrew play video games even if we play different genres.Also it was the easiest to grasp the concept on how to build the game compared to the other options we came up with.We choose the fantasy setting because of something seen another class.We choose the enemy type because James really like orcs.Also in many different types of media they are seen as the bad guys.Example of this is the orks from lord of the rings.The first person combat game assect was chosen since having a live combat compared to turn based is more interesting to us.Unreal was the main choose since after research online it was shown that Unreal was the easy of the two compared to unity also Logan voiced similar opinions.  
 \section{Technical specifications}
 We are using Unreal Engine for our project. We will be using C++ and blueprints in Unreal and behavior trees for the AI. Behavior trees are essentially used to create AI by having branches that decide actions.1 Blueprints will be used in places that require simple execution such as taking the player to a new level. An example would be the AI just searching and then it will execute a different branch when it finds someone. GitHub is being used for collaboration with each other and version control. All the assets that are currently being used is in the unreal store. 
 \section{Levels}
-There are three levels in this game. The first is the castle area and it was the first one made.It is two court yard and a main building; each courtyard will have some smaller enemies for you to deal with. The Middle building will have two stories. The first one is just a way to get to the other court yard, basement level, and upstairs. The second level will hold the boss enemy for the level. The second level is the basement/dungeon. It is a smaller level with just two holding cells and a backroom for the boss and some enemies. The third level is a bigger level with a bunch of small buildings in an enclosed space.It has wolves and orcs next to the building with a tavern in the back with the boss. \\
-\includegraphics[width=6cm, height=6cm]{Figure/castle.png}\\ \\  
-\includegraphics[width=6cm, height=6cm]{Figure/basement.png}\\ \\  
-\includegraphics[width=6cm, height=6cm]{Figure/fort.png} \\ \\   
+There are three levels in this game. The first is the castle area and it was the first one made.It is two court yard and a main building; each courtyard will have some smaller enemies for you to deal with. The Middle building will have two stories. The first one is just a way to get to the other court yard, basement level, and upstairs. The second level will hold the boss enemy for the level. The second level is the basement/dungeon. It is a smaller level with just two holding cells and a backroom for the boss and some enemies. The third level is a bigger level with a bunch of small buildings in an enclosed space.It has wolves and orcs next to the building with a tavern in the back with the boss. 
+\subsection{Castle}
+We chose a castle for the first level since we wanted something that would the the player that they are in a fantasy genre game.It is also very simple concept wise since a castle it basically  a big building with court yards.The castle level was the first so it required the most research on how to make it look at least decent. The ground section of the floor is made using a special tool in landscape mode which makes a big smooth surface to on the floor after that we added small bumps in the ground to give it a realistic texture since having a flat texture surface would look a little boring.Since it was the first level it still has some roughness around the edges such as some parts of the building not being connected exactly to each other but we were able to move walls around to make it look presentable. The enemy choice for this level is simple since it is the first level and did not want to overwhelm the player with enemies in the level.The level only had like 7 enemies  and total and they were spread out.The boss was also by itself to make the level easy.The only thing difficult about the level is the boss and that the player is immediately thrown into combat at the start of the game.  
+\begin{figure}
 
+
+\includegraphics[width=6.5cm, height=6.5cm]{Figure/castle.png}
+\caption{Castle level}
+\end{figure}
+\subsection{Basement}
+The basement level was chosen because it would make sense for a castle to have a basement/dungeon area that contains prisoners and other enemies. This also helped to make the transitions between the castle and basement more natural. For the basement level the player character was supposed to feel uneasy. This feeling of unease was accomplished by having the lighting be recessed and letting the shadows combined with a lack of sunlight create a dark and scary atmosphere. The level also contains a couple of cells that house different prisoners of the castle. The layout of the level consists of  a long corridor with two different hallways on the left and right. One of the npcs the character can see housed in the cells is a giant chicken that incorporates custom animation work that we designed and implemented. The main corridor contains a large room that houses a large number of enemies that all rush the player character. The character player was meant to be caught off guard by the great number of enemies adding to the difficulty of the level.
+\begin{figure}
+
+
+\includegraphics[width=6.5cm, height=6.5cm]{Figure/basement.png}
+\caption{Basement Level}
+\end{figure}
+\subsection{Fort}
+The third and final level was one of the easier levels to make since we were getting better at level building.In Unreal you are able to highlight multiple objects and copy them.That was how the walls for the castle were made.Something similar was done the with small buildings but it was done with the whole building.The floor of this level was easy to make because we had already made it in the castle level.The enemies in this level are simple compared to other levels since they stand there, and guard the buildings.The enemies are more difficult since there are multiple groups of enemies the boss is also with 2 wolves to make the tavern battle more difficult.i choose the Fort as a level since I wanted an area that would mainly focus on the orcs and a area in the woods made the most sense to me.
+\begin{figure}
+
+
+\includegraphics[width=6cm, height=6cm]{Figure/fort.png}  
+\caption{fort level}
+\end{figure}
 \section{Classes}
-We made two classes for the game, the mage and warrior. The warrior was the first class made and is the simpler of the two. Its first ability is just a healing ability, which is useful for staying alive, since you have to be in melee combat. The second ability is a damage buff, which will give double damage on his attacks. The third ability is his ultimate, which gives health regeneration to the player. The mage class is the dps class. The first ability sends out fast moving disks in front of the player. The second ability shoots a fireball, which does a lot of damage, which is useful for the bosses in the game. The ult will regenerate the players' resources to cast more spells. \\
-\includegraphics[width=6cm, height=6cm]{Figure/hammer.png}\\ \\   
-\includegraphics[width=6cm, height=6cm]{Figure/mage.png}\\ \\   
+We made two classes for the game, the mage and warrior. The warrior was the first class made and is the simpler of the two. Its first ability is just a healing ability, which is useful for staying alive, since you have to be in melee combat. The second ability is a damage buff, which will give double damage on his attacks. The third ability is his ultimate, which gives health regeneration to the player. The mage class is the dps class. The first ability sends out fast moving disks in front of the player. The second ability shoots a fireball, which does a lot of damage, which is useful for the bosses in the game. The ult will regenerate the players' resources to cast more spells. 
+\begin{figure}
+
+
+\includegraphics[width=6cm, height=6cm]{Figure/MageAbility.png}
+\caption{Mage blueprint}
+\end{figure}
+
 \section{What we learned}
 This section will cover what we learned over the course of  making our project. Over the semester we learned about game development within unreal engine 5. Unreal engine is made by Epic Games, and is free to use. We also learned how to go about making a game, and all the steps that require it. Making the game involved a whole host of different things like having to plan out the different levels within the game, choosing an overall art direction for the game, deciding on what kind of enemies the player will go up against, and the different abilities the player character will have.Something else we learned how to do was create custom animations within the unreal engine. The enemies and their AI that is used to make them work was something else we learned. The player characters' different projectiles and weapons that can be used were implemented. An interface for the player character that shows the players' health, magic, and ultimate ability was made.
-\section{mechanics}
 
-
-\subsection{blueprints}
-The major blueprints that were made were dealing with the classes. The projectiles used were changed blueprints of the original projectile. Things that were changed about it were the damage numbers of gravity and speed. The class systems for the warrior used changing of simple variable values to achieve the effect of healing. We did similar effects on other values, such as resources and ultimate bars. We achieved the damage buff ability by having a damage buff variable and having it change from 1 to 2 and having it affect weapon damage. The only problem I had with that was the casting to player character, which took finding more information about casting online.
-The mage abilities used similar blueprints since it was just spawning the projectile and the only thing that was different was the damage numbers and the cost of using the ability.The ultimates were just having a timer run over a different variable to regenerate that bar.\\
-\includegraphics[width=6cm, height=6cm]{Figure/blueprint.png}\\ \\ 
-
-
+\section{blueprints}
+The major blueprints that were made were dealing with the classes. The projectiles used were changed blueprints of the original projectile. Things that were changed about it were the damage numbers of gravity and speed. The class systems for the warrior used changing of simple variable values to achieve the effect of healing. We did similar effects on other values, such as resources and ultimate bars. We achieved the damage buff ability by having a damage buff variable, and having it change from 1 to 2 and having it affect weapon damage.Each weapon that benefits from the affect needed to have the variable added to it and changed by the variable. The only problem I had with that was the casting to player character, which took finding more information about casting online.All casting is in Unreal is allowing you  to deal with another blueprints information which is important when dealing with abilities. The mage abilities used similar blueprints since it was just spawning the projectile and the only thing that was different was the damage numbers and the cost of using the ability.The ultimates were just having a timer run over a different variable to regenerate that bar.Choosing you class added some complexity to the blueprints since you had to have conditionals for the abilities.It was done by adding a variable to keep track of what class you have.The class choose system is done by clicking a key on the key board and what weapon you want to use.The weapon choseing system just binds the weapon to your skeleton. The weapon it not conjured into the game it already is in the level and just moves it to you.
+\begin{figure}
+\includegraphics[width=6.5cm, height=6.5cm]{Figure/blueprint.png}
+\caption{Example Blueprint}
+\end{figure}
 \subsection{AI}
-AI was a little tricky since at first I just had simple blueprints to do basic tasks such as see, and move towards the player. That later changed when I learned about behavior trees. All a behavior tree does is choose paths and execute commands. Example of a command used is turn to face player. The movement is basically the AI finding a spot nearby and moving towards it until it sees the player. The AI will make the enemy move towards the player. This part of the project was difficult, and we had to use a tutorial made by unreal to get more information about behavior trees and get basic functionality. \\ 
-\includegraphics[width=6cm, height=6cm]{Figure/AI.png} \\ \\  
+AI was a little tricky since at first I just had simple blueprints to do basic tasks such as see, and move towards the player. That later changed when I learned about behavior trees. All a behavior tree does is choose paths and execute commands. Example of a command used is turn to face player. The movement is basically the AI finding a spot nearby and moving towards it until it sees the player. The AI will make the enemy move towards the player. This part of the project was difficult, and we had to use a tutorial made by unreal to get more information about behavior trees and get basic functionality. 
+\includegraphics[width=6.5cm, height=6.5cm]{Figure/AI.png}  
 
 \section{Trials and Tribulations}
-While creating and perfecting the project, we encountered certain issues. Even though we used GitHub for our version control and collaboration, we still ran into problems where we lost work. Another issue encountered was the differences in performance specifically GPU power, between our personal machines complicated development.some concepts were difficult, such as the AI.There are also a lot of options on the blueprints and objects, so it was easy to get overwhelmed by it. Implementing the classes was tedious since choosing a class and a weapon can not be on the same keybinds. The class ultimates were difficult since loops are awful in the blueprint system, and would throw a no end condition error.We had to use timers which are much better to deal with in blueprints.
+While creating and perfecting the project, we encountered certain issues. Even though we used GitHub for our version control and collaboration, we still ran into problems where we lost work.The most notable was finally  getting animations on the melee weapon and then on push later some projectiles stopped working and the melee animation stopped working.The main fix for that was towards the end James was the only one allowed to push to the master branch.   Another issue encountered was the differences in performance specifically GPU power, between our personal machines complicated development.The was we got around that was James was the one that did all of the live testing since trying on 5 fps was a bad idea.Also the lighting was weird depending on whose pc we were using on one it looked fine but on another the lighting seemed off.That never was fixed in the final projected since we focused on mechanics, and it got put on the back log. some concepts were difficult, such as the AI.The AI had trouble when dealing with different levels and would lead to different actions or inaction being made by the AI most noticeable it the guard AI in the second and third levels.There are also a lot of options on the blueprints and objects, so it was easy to get overwhelmed by it. Implementing the classes was tedious since choosing a class and a weapon can not be on the same keybinds. The class ultimate were difficult since loops are awful in the blueprint system, and would throw a no end condition error.We had to use timers which are much better to deal with in blueprints.
 
 
 \section{Future Work}
@@ -200,7 +220,7 @@ There are some areas in our project that we weren't able to implement and could 
 
 
 \section{Project Development}
-The project started with just a map that later became the empty castle. At first, it was just messing with the toolkit to figure things out. I later added enemies that just stood there, and then later they would move randomly. We started working on the second level, which became the basement level, since it seemed to transition well. The levels after the castle stayed stagnant since we focused on the mechanics of the game. It first started with the AI, which was a nightmare to work with, so we switched over to working on the class system since it was easier. We added a warrior class with abilities such as healing, damage buff, and a regeneration ability. The ultimates required us learning about timers since they were required to make it work. The mage was the next class made which had different spells it could use. The spells required us to make more projectiles that have different stats. We then shifted focus back to the AI and got them to move round. 
+The project started with just a map that later became the empty castle. At first, it was just messing with the toolkit to figure things out.For example the floor being made from unreal's toolkit instead of just adding floor blocks.The textures on the walls needed to look good.The easy solution for that was just repeating a wall block which was good for our use.  I later added enemies that just stood there, and then later they would move randomly. We started working on the second level, which became the basement level, since it seemed to transition well.The level transitions were done using trigger boxes which are box that when stepped over will execute code.This was done for all of the level transitions and when the player died. The levels after the castle stayed stagnant since we focused on the mechanics of the game. It first started with the AI, which was a nightmare to work with, so we switched over to working on the class system since it was easier. We added a warrior class with abilities such as healing, damage buff, and a regeneration ability. The ultimates required us learning about timers since they were required to make it work. The mage was the next class made which had different spells it could use. The spells required us to make more projectiles that have different stats. We then shifted focus back to the AI and got them to move around. 
 
 
 \section{Opinions on Project}
@@ -212,300 +232,6 @@ To conclude over the semester with our project, we were able to make a playable 
 
 
 
-Your paper's title, authors and affiliations should run across the
-full width of the page in a single column 17.8 cm (7 in.) wide.  The
-title should be in Helvetica or Arial 18-point bold.  Authors' names
-should be in Times New Roman or Times Roman 12-point bold, and
-affiliations in 12-point regular.  
-
-See \texttt{{\textbackslash}author} section of this template for
-instructions on how to format the authors. For more than three
-authors, you may have to place some address information in a footnote,
-or in a named section at the end of your paper. Names may optionally
-be placed in a single centered row instead of at the top of each
-column. Leave one 10-point line of white space below the last line of
-affiliations.
-
-\subsection{Abstract and Keywords}
-
-Every submission should begin with an abstract of about 150 words,
-followed by a set of Author Keywords and ACM Classification
-Keywords. The abstract and keywords should be placed in the left
-column of the first page under the left half of the title. The
-abstract should be a concise statement of the problem, approach, and
-conclusions of the work described. It should clearly state the paper's
-contribution to the field of HCI\@.
-
-\subsection{Normal or Body Text}
-
-Please use a 10-point Times New Roman or Times Roman font or, if this
-is unavailable, another proportional font with serifs, as close as
-possible in appearance to Times Roman 10-point. Other than Helvetica
-or Arial headings, please use sans-serif or non-proportional fonts
-only for special purposes, such as source code text.
-
-\subsection{First Page Copyright Notice}
-This template include a sample ACM copyright notice at the bottom of
-page 1, column 1.  Upon acceptance, you will be provided with the
-appropriate copyright statement and unique DOI string for publication.
-Accepted papers will be distributed in the conference
-publications. They will also be placed in the ACM Digital Library,
-where they will remain accessible to thousands of researchers and
-practitioners worldwide. See
-\url{http://acm.org/publications/policies/copyright_policy} for the
-ACM's copyright and permissions policy.
-
-\subsection{Subsequent Pages}
-
-On pages beyond the first, start at the top of the page and continue
-in double-column format.  The two columns on the last page should be
-of equal length.
-
-%% \begin{figure}
-%% \centering
-%%   \includegraphics[width=0.9\columnwidth]{figures/sigchi-logo}
-%%   \caption{Insert a caption below each figure. Do not alter the
-%%     Caption style.  One-line captions should be centered; multi-line
-%%     should be justified. }~\label{fig:figure1}
-%% \end{figure}
-
-\subsection{References and Citations}
-
-Use a numbered list of references at the end of the article, ordered
-alphabetically by last name of first author, and referenced by numbers
-in
-brackets.
-Your references should be published materials accessible to the
-public. Internal technical reports may be cited only if they are
-easily accessible (i.e., you provide the address for obtaining the
-report within your citation) and may be obtained by any reader for a
-nominal fee. Proprietary information may not be cited. Private
-communications should be acknowledged in the main text, not referenced
-(e.g., ``[Borriello, personal communication]'').
-
-References should be in ACM citation format:
-\url{http://acm.org/publications/submissions/latex_style}. This
-includes citations to internet
-resources
-according to ACM format, although it is often appropriate to include
-URLs directly in the text, as above.
-
-
-% Use a numbered list of references at the end of the article, ordered
-% alphabetically by first author, and referenced by numbers in
-% brackets~\cite{ethics, Klemmer:2002:WSC:503376.503378,
-%   Mather:2000:MUT, Zellweger:2001:FAO:504216.504224}. For papers from
-% conference proceedings, include the title of the paper and an
-% abbreviated name of the conference (e.g., for Interact 2003
-% proceedings, use \textit{Proc. Interact 2003}). Do not include the
-% location of the conference or the exact date; do include the page
-% numbers if available. See the examples of citations at the end of this
-% document. Within this template file, use the \texttt{References} style
-% for the text of your citation.
-
-% Your references should be published materials accessible to the
-% public.  Internal technical reports may be cited only if they are
-% easily accessible (i.e., you provide the address for obtaining the
-% report within your citation) and may be obtained by any reader for a
-% nominal fee.  Proprietary information may not be cited. Private
-% communications should be acknowledged in the main text, not referenced
-% (e.g., ``[Robertson, personal communication]'').
-
-\begin{table}
-  \centering
-  \begin{tabular}{l r r r}
-    % \toprule
-    & & \multicolumn{2}{c}{\small{\textbf{Test Conditions}}} \\
-    \cmidrule(r){3-4}
-    {\small\textit{Name}}
-    & {\small \textit{First}}
-      & {\small \textit{Second}}
-    & {\small \textit{Final}} \\
-    \midrule
-    Marsden & 223.0 & 44 & 432,321 \\
-    Nass & 22.2 & 16 & 234,333 \\
-    Borriello & 22.9 & 11 & 93,123 \\
-    Karat & 34.9 & 2200 & 103,322 \\
-    % \bottomrule
-  \end{tabular}
-  \caption{Table captions should be placed below the table. We
-    recommend table lines be 1 point, 25\% black. Minimize use of
-    table grid lines.}~\label{tab:table1}
-\end{table}
-
-\section{Sections}
-
-The heading of a section should be in Helvetica or Arial 9-point bold,
-all in capitals. Sections should \textit{not} be numbered.
-
-\subsection{Subsections}
-
-Headings of subsections should be in Helvetica or Arial 9-point bold
-with initial letters capitalized.  For sub-sections and
-sub-subsections, a word like \emph{the} or \emph{of} is not
-capitalized unless it is the first word of the heading.
-
-\subsubsection{Sub-subsections}
-
-Headings for sub-subsections should be in Helvetica or Arial 9-point
-italic with initial letters capitalized.  Standard
-\texttt{{\textbackslash}section}, \texttt{{\textbackslash}subsection},
-and \texttt{{\textbackslash}subsubsection} commands will work fine in
-this template.
-
-\section{Figures/Captions}
-
-Place figures and tables at the top or bottom of the appropriate
-column or columns, on the same page as the relevant text (see
-Figure~\ref{fig:figure1}). A figure or table may extend across both
-columns to a maximum width of 17.78 cm (7 in.).
-
-%% \begin{figure*}
-%%   \centering
-%%   \includegraphics[width=1.75\columnwidth]{figures/map}
-%%   \caption{In this image, the map maximizes use of space. You can make
-%%     figures as wide as you need, up to a maximum of the full width of
-%%     both columns. Note that \LaTeX\ tends to render large figures on a
-%%     dedicated page. Image: \ccbynd~ayman on
-%%     Flickr.}~\label{fig:figure2}
-%% \end{figure*}
-
-Captions should be Times New Roman or Times Roman 9-point bold.  They
-should be numbered (e.g., ``Table~\ref{tab:table1}'' or
-``Figure~\ref{fig:figure1}''), centered (if one line) otherwise justified, and placed beneath the figure
-or table.  Please note that the words ``Figure'' and ``Table'' should
-be spelled out (e.g., ``Figure'' rather than ``Fig.'') wherever they
-occur. Figures, like Figure~\ref{fig:figure2}, may span columns and
-all figures should also include alt text for improved accessibility.
-Papers and notes may use color figures, which are included in the page
-limit; the figures must be usable when printed in black-and-white in
-the proceedings.
-
-The paper may be accompanied by a short video figure (we recommend staying within five
-minutes in length). However, the paper should stand on its own without
-the video figure, as the video may not be available to everyone who
-reads the paper.  
-
-\subsection{Inserting Images}
-When possible, include a vector formatted graphic (i.e. PDF or EPS).
-When including bitmaps,  use an image editing tool to resize the image
-at the appropriate printing resolution (usually 300 dpi).
-
-\section{Quotations}
-Quotations may be italicized when \textit{``placed inline''}.
-
-\begin{quote}
-Longer quotes, when placed in their own paragraph, need not be
-italicized or in quotation marks when indented.  
-\end{quote}
-
-\section{Language, Style, and Content}
-
-The written and spoken language of SIGCHI is English. Spelling and
-punctuation may use any dialect of English (e.g., British, Canadian,
-US, etc.) provided this is done consis- tently. Hyphenation is
-optional. To ensure suitability for an international audience, please
-pay attention to the following:
-
-\begin{itemize}
-\item Write in a straightforward style.
-\item Try to avoid long or complex sentence structures.
-\item Use common and basic vocabulary (e.g., use the word ``unusual'' rather than the word ``arcane''.
-\item Briefly define or explain all technical terms that may be
-  unfamiliar to readers.
-\item Explain all acronyms the first time they are used in your
-  text---e.g., ``Digital Signal Processing (DSP)''.
-\item Explain local references (e.g., not everyone knows all city
-  names in a particular country).
-\item Explain ``insider'' comments. Ensure that your whole audience
-  understands any reference whose meaning you do not describe (e.g.,
-  do not assume that everyone has used a Macintosh or a particular
-  application).
-\item Explain colloquial language and puns. Understanding phrases like
-  ``red herring'' may require a local knowledge of English.  Humor and
-  irony are difficult to translate.
-\item Use unambiguous forms for culturally localized concepts, such as
-  times, dates, currencies, and numbers (e.g., ``1--5--97'' or
-  ``5/1/97'' may mean 5 January or 1 May, and ``seven o'clock'' may
-  mean 7:00 am or 19:00). For currencies, indicate equivalences:
-  ``Participants were paid {\fontfamily{txr}\selectfont \textwon}
-  25,000, or roughly US \$22.''
-\item Be careful with the use of gender-specific pronouns (he, she)
-  and other gendered words (chairman, manpower, man-months). Use
-  inclusive language that is gender-neutral (e.g., she or he, they,
-  s/he, chair, staff, staff-hours, person-years). See the
-  \textit{Guidelines for Bias-Free Writing} for further advice and
-  examples regarding gender and other personal
-  attributes~. Be particularly aware of
-  considerations around writing about people with disabilities.
-\item If possible, use the full (extended) alphabetic character set
-  for names of persons, institutions, and places (e.g.,
-  Gr{\o}nb{\ae}k, Lafreni\'ere, S\'anchez, Nguy{\~{\^{e}}}n,
-  Universit{\"a}t, Wei{\ss}enbach, Z{\"u}llighoven, \r{A}rhus, etc.).
-  These characters are already included in most versions and variants
-  of Times, Helvetica, and Arial fonts.
-\end{itemize}
-
-\section{Accessibility}
-The Executive Council of SIGCHI has committed to making SIGCHI
-conferences more inclusive for researchers, practitioners, and
-educators with disabilities. As a part of this goal, the all authors
-are asked to work on improving the accessibility of their
-submissions. Specifically, we encourage authors to carry out the
-following five steps:
-\begin{enumerate}
-\item Add alternative text to all figures
-\item Mark table headings
-\item Add tags to the PDF
-\item Verify the default language
-\item Set the tab order to ``Use Document Structure''
-\end{enumerate}
-For more information and links to instructions and resources, please
-see: \url{http://chi2016.acm.org/accessibility}.  The
-\texttt{{\textbackslash}hyperref} package allows you to create well tagged PDF files,
-please see the preamble of this template for an example.
-
-\section{Page Numbering, Headers and Footers}
-Your final submission should not contain footer or header information
-at the top or bottom of each page. Specifically, your final submission
-should not include page numbers. Initial submissions may include page
-numbers, but these must be removed for camera-ready. Page numbers will
-be added to the PDF when the proceedings are assembled.
-
-\section{Producing and Testing PDF Files}
-
-We recommend that you produce a PDF version of your submission well
-before the final deadline.  Your PDF file must be ACM DL
-Compliant. The requirements for an ACM Compliant PDF are available at:
-{\url{http://www.scomminc.com/pp/acmsig/ACM-DL-pdfs-requirements.htm}}.
-
-Test your PDF file by viewing or printing it with the same software we
-will use when we receive it, Adobe Acrobat Reader Version 10. This is
-widely available at no cost. Note that most
-reviewers will use a North American/European version of Acrobat
-reader, so please check your PDF accordingly.
-
-\section{Conclusion}
-
-It is important that you write for the SIGCHI audience. Please read
-previous years' proceedings to understand the writing style and
-conventions that successful authors have used. It is particularly
-important that you state clearly what you have done, not merely what
-you plan to do, and explain how your work is different from previously
-published work, i.e., the unique contribution that your work makes to
-the field. Please consider what the reader will learn from your
-submission, and how they will find your work useful. If you write with
-these questions in mind, your work is more likely to be successful,
-both in being accepted into the conference, and in influencing the
-work of our field.
-
-\section{Acknowledgments}
-
-Sample text: We thank all the volunteers, and all publications support
-and staff, who wrote and provided helpful comments on previous
-versions of this document. Authors 1, 2, and 3 gratefully acknowledge
-the grant from NSF (\#1234--2012--ABC). \textit{This whole paragraph is
-  just an example.}
 
 % Balancing columns in a ref list is a bit of a pain because you
 % either use a hack like flushend or balance, or manually insert
@@ -528,22 +254,10 @@ the grant from NSF (\#1234--2012--ABC). \textit{This whole paragraph is
 %
 \balance{}
 
-\section{References Format}
-Your references should be published materials accessible to the
-public. Internal technical reports may be cited only if they are
-easily accessible and may be obtained by any reader for a nominal
-fee. Proprietary information may not be cited. Private communications
-should be acknowledged in the main text, not referenced (e.g.,
-[Golovchinsky, personal communication]). References must be the same
-font size as other body text. References should be in alphabetical
-order by last name of first author. Use a numbered list of references
-at the end of the article, ordered alphabetically by last name of
-first author, and referenced by numbers in brackets. For papers from
-conference proceedings, include the title of the paper and the name of
-the conference. Do not include the location of the conference or the
-exact date; do include the page numbers if available. 
 
-Citing something\cite{unrealweb}. \cite{wizard} \cite{infinityw} \cite{infinitya}
+
+
+\cite{unrealweb}. \cite{wizard} \cite{infinityw} \cite{infinitya} \cite{AI}  \cite{Timer} \cite{health}
 
 
 % BALANCE COLUMNS

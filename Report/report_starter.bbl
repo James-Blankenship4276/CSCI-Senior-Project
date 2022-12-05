@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}
+
+\bibitem{health}
+Matt Aspland.
+\newblock How to make a health bar in unreal engine 5.
+\newblock \url{https://www.youtube.com/watch?v=PVgMkUwhtoM}.
+
+\bibitem{Timer}
+Unreal Engine.
+\newblock Using timers.
+\newblock
+  \url{https://docs.unrealengine.com/4.26/en-US/InteractiveExperiences/UseTimers/}.
+
+\bibitem{AI}
+Unreal Engine.
+\newblock Unreal engine ai with behavior trees | unreal engine.
+\newblock \url{https://www.youtube.com/watch?v=iY1jnFvHgbE}, 2020.
+
+\bibitem{infinitya}
+Epic~Games Inc.
+\newblock Infinity blade: Adversaries.
+\newblock
+  \url{https://www.unrealengine.com/marketplace/en-US/product/infinity-blade-enemies},
+  2015.
+
+\bibitem{infinityw}
+Epic~Games Inc.
+\newblock Infinity blade: Weapons.
+\newblock
+  \url{https://www.unrealengine.com/marketplace/en-US/product/infinity-blade-weapons},
+  2015.
+
+\bibitem{unrealweb}
+Epic~Games Inc.
+\newblock The {U}nreal {E}ngine.
+\newblock \url{https://www.unrealengine.com/en-US}, 2022.
+
+\bibitem{wizard}
+Dungeon Mason.
+\newblock Wizard for battle polyart.
+\newblock
+  \url{https://www.unrealengine.com/marketplace/en-US/product/battle-wizard-polyart?sessionInvalidated=true},
+  2020.
+
+\end{thebibliography}
